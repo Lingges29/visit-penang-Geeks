@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #87ceeb, #ffffff), 
+              url("data:image/jpeg;base64,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") repeat center center;
+  background-size: cover;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  background-color: #e55a00;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Skyline_of_George_Town%2C_Penang_at_night_Nov2024-29-17.jpg/432px-Skyline_of_George_Town%2C_Penang_at_night_Nov2024-29-17.jpg");
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 255, 255);
+  padding: 6rem 0;
+  text-align: center;
+  margin: 0; /* Ensures no extra spacing is added */
+}
+
+nav {
+  background-color: #0066cc;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  margin: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.card a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  background-color: #ff6600;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.card a:hover {
+  background-color: #e55a00;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.click-box {
+  display: inline-block;
+  padding: 15px 20px;
+  background-color:  #ff6600;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.click-box:hover {
+  background-color: #e55a00;
+}
+
+.calendar-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.calendar-container {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.video-section {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  margin: 0; /* Remove any unwanted spacing */
+}
+
+.intro-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video fills the container */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
